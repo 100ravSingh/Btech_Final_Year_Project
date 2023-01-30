@@ -29,8 +29,6 @@ from xgboost import plot_importance
 from matplotlib import pyplot
 
 
-# In[3]:
-
 
 classifier=xgboost.XGBRegressor()
 regressor=XGBRegressor()
@@ -52,7 +50,7 @@ def cv(random_state, poly_degree, model, tester,problem, print_folds=True):
         data_file ='../Dataset/data2set.csv'
         data = pd.read_csv(data_file)
     else:
-        print("The problem has to be compressive or tensile1 or test2")
+        print("The problem has to be compressive or tensile or test2")
         return
 
     data = data.values
@@ -98,8 +96,6 @@ def cv(random_state, poly_degree, model, tester,problem, print_folds=True):
         
 
 
-# In[4]:
-
 
 def run_xgb(random_state, poly_degree, n_estimators, max_depth, learning_rate,objective, problem,tester):
     model = XGBRegressor(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate,
@@ -109,29 +105,15 @@ def run_xgb(random_state, poly_degree, n_estimators, max_depth, learning_rate,ob
     
 
 
-# In[6]:
-
-
 def calci(testing,natures):
     if natures == "compressive":
         outpts2 = run_xgb(random_state=0, poly_degree=1, n_estimators=1400, max_depth=6,
         learning_rate=0.15, objective="reg:logistic", problem="compressive",tester=testing)
     
-    #if natures == "tensile":
-    #    outpts2 = run_xgb(random_state=0, poly_degree=2, n_estimators=700, max_depth=6,
-    #    learning_rate=0.09, objective="reg:logistic", problem="tensile",tester=testing)
+    if natures == "tensile":
+        outpts2 = run_xgb(random_state=0, poly_degree=2, n_estimators=700, max_depth=6,
+        learning_rate=0.09, objective="reg:logistic", problem="tensile",tester=testing)
         
     return outpts2
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
