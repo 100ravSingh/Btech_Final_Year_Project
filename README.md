@@ -9,7 +9,7 @@
 
 ### Research and Machine Learning code availabe on GA folder.
 
-#### Status : For compressive GUI app working fine , while for tensile some developer work going on.
+#### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI App.
 
 #### Any contribtution in ML model or GUI app are welcome.
 
