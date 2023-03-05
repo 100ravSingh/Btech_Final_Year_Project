@@ -11,6 +11,28 @@
 
 #### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI app.
 
+
+##****************************************************Installation Instructions********************************************************************************
+## To Install this application in your system, Please follow this instructions.
+
+### 1. System must have window OS ( prefer 8+).
+### 2. Your system have must have python 3+ version, if not follow this [link](https://www.youtube.com/watch?v=0QibxSdnWW4) for how to install python in window system.
+### 3. To download directory either you click on this [link](https://github.com/100ravSingh/Btech_Final_Year_Project/archive/refs/heads/main.zip) for zipped file,
+###     extract then or use git command in your local directory.
+
+####  ---->    git clone https://github.com/100ravSingh/Btech_Final_Year_Project.git
+
+### 4. Once file downloaded, open command prompt in same directory where file is available then type 
+
+####  ---->   cd Btech_Final_Year_Project  ---> press enter
+####  ---->   cd Application               ---> press enter 
+####  ---->   pip install -r requirements.txt    ---> press enter
+####  ---->   python layout_design.py            ---> press enter
+
+####  App is ready to use.
+
+##****************************************************Installation Instructions**********************************************************************************
+
 #### Any contribtution in ML model or GUI app are welcome.
 
 #### Please visit this website regulary for further updates.
