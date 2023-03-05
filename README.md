@@ -12,7 +12,6 @@
 #### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI app.
 
 
-## ***************************************************Installation Instructions********************************************************************************
 ## To Install this application in your system, Please follow this instructions.
 
 ### 1. System must have window OS ( prefer 8+).
@@ -27,11 +26,9 @@
 ####  ---->   cd Btech_Final_Year_Project  ---> press enter
 ####  ---->   cd Application               ---> press enter 
 ####  ---->   pip install -r requirements.txt    ---> press enter
-####  ---->   python layout_design.py            ---> press enter
+####  ---->   python layout_design.py            ---> press enter     ( App is ready to use )
 
-####  App is ready to use.
 
-## ***************************************************Installation Instructions**********************************************************************************
 
 #### Any contribtution in ML model or GUI app are welcome.
 
