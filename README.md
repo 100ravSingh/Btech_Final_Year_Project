@@ -9,7 +9,7 @@
 
 ### Research and Machine Learning code availabe on GA folder.
 
-#### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI app.
+### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI app.
 
 
 ## To Install this application in your system, Please follow this instructions.
@@ -29,12 +29,12 @@
 ####  ---->   python layout_design.py            ---> press enter     ( App is ready to use )
 
 
+## Important Message
+### Any contribtution in ML model or GUI app are welcome.
 
-#### Any contribtution in ML model or GUI app are welcome.
-
-#### Please visit this website regulary for further updates.
+### Please visit this website regulary for further updates.
 
 
-#### Porject Contribution by : Prof S.K Patro and Sourav Singh
+### Project Contribution by : Prof S.K Patro and Sourav Singh
 
 
