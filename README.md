@@ -12,7 +12,7 @@
 #### Status : GUI application working fine for both compressive and tensile strength. Soon we will upload tutorial video of GUI app.
 
 
-##****************************************************Installation Instructions********************************************************************************
+## ***************************************************Installation Instructions********************************************************************************
 ## To Install this application in your system, Please follow this instructions.
 
 ### 1. System must have window OS ( prefer 8+).
@@ -31,7 +31,7 @@
 
 ####  App is ready to use.
 
-##****************************************************Installation Instructions**********************************************************************************
+## ***************************************************Installation Instructions**********************************************************************************
 
 #### Any contribtution in ML model or GUI app are welcome.
 
