@@ -30,11 +30,11 @@
 
 
 ## Important Message
-### Any contribtution in ML model or GUI app are welcome.
+### 1. Any contribtution to this ML model or GUI app are highly welcome.
 
-### Please visit this website regulary for further updates.
+### 2. Please visit this website regulary for further updates.
 
 
-### Project Contribution by : Prof S.K Patro and Sourav Singh
+### 3. Project Contribution by : Prof [S.K Patro](https://www.vssut.ac.in/faculty-profile.php?furl=sanjaya-kumar-patro-arch) and [Sourav Singh](https://100ravsingh.github.io/Sourav/) 
 
 
