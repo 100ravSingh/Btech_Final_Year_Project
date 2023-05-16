@@ -2,9 +2,10 @@
 
 ## Topic : Performance of machine learning models for strength prediction of high performance concrete
 
+### Project Journal [Published here](https://doi.org/10.1007/s42107-023-00698-y)
+
 ### This directory content all files regarding my btech major project works.
 ### [directory link](https://github.com/100ravSingh/Btech_Final_Year_Project)
-### Project Journal [Published](https://doi.org/10.1007/s42107-023-00698-y)
 
 ### For application code : for GUI, please check Application folder in main folder.
 
