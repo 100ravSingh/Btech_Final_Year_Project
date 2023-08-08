@@ -30,13 +30,13 @@ from matplotlib import pyplot
 
 
 
-classifier=xgboost.XGBRegressor()
-regressor=XGBRegressor()
+
 model = XGBRegressor()
 
 # cross validation
 def cv(random_state, poly_degree, model, tester,problem, print_folds=True):
     interaction_only = False
+    MEAN = []
     if problem.lower() == "compressive":
         data_file ='../Dataset/compressive_strength.csv'
         data = pd.read_csv(data_file)
@@ -91,8 +91,9 @@ def cv(random_state, poly_degree, model, tester,problem, print_folds=True):
 
         y_pred = model.predict(X_test)
         y_pred = y_scaler.inverse_transform(y_pred.reshape(-1, 1))
+        MEAN.append(y_pred)
         
-    return y_pred
+    return np.average(MEAN)
         
 
 
