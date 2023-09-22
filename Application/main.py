@@ -326,6 +326,7 @@ def set_myten():
         slump.delete(0,END)
         concrete.delete(0,END)
         label_tens.config(text="")
+        
     
     label_cement_comp = Label(root,text="Compressive Strengh of Cement (MPa)",width = 40,font=("bold",15))
     label_cement_comp.place(x=5,y=130)
@@ -412,6 +413,19 @@ def set_mybat():
         file_path = label_file["text"]
         label_cement_batch5["text"] = "Output Section"
         DATA.drop(DATA.index , inplace=True)
+        
+        global batch_compressive
+        global batch_tensile
+        variable_name = "batch_compressive"
+        variable_name2 = "batch_tensile"
+        value = globals().get(variable_name)
+        value2 = globals().get(variable_name2)
+        if value is not None:
+            del batch_compressive 
+        else:
+            if value2 is not None:
+                del batch_tensile
+    
     
     def open_file_dialog():
         """This Function will open the file explorer and assign the chosen file path to label_file"""
@@ -531,4 +545,3 @@ def set_mybat():
 
 
 root.mainloop()
-
