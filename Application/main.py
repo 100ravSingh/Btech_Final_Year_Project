@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -451,14 +448,18 @@ def set_mybat():
         
     def tensile_batch():
         
-        global tensile_compressive
+        global batch_tensile
         
         batch_tensile = calci(DATA,"b_tensile")
         label_cement_batch5.config(text = " Split Tensile (MPa) " + str(batch_tensile) + " ")
     
-    def export_result(): 
+    def export_result():
         
-        if batch_compressive.size != 0:
+        variable_name = "batch_compressive"
+
+        value = globals().get(variable_name)
+        
+        if value is not None:
             batch_compressive2 = pd.DataFrame(batch_compressive)
             DATA2 = pd.concat([DATA, batch_compressive2], axis = 1)
             
@@ -530,11 +531,4 @@ def set_mybat():
 
 
 root.mainloop()
-
-
-
-# In[ ]:
-
-
-
 
