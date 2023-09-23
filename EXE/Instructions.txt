@@ -1,0 +1,17 @@
+###############################################################################################################
+###                              Application Instructions                                                   ###
+###############################################################################################################
+
+OS : Window 
+
+Turn off any antivirus and window defenders to avoid "False Positive Threat".
+
+Steps :-
+
+1. Once you download this, Open the folder HPC-Strength.
+
+2. Find out HPC-Strength Application, either click on it or create a shortcut.
+
+3. Then click on shortcut or application to run this app.
+
+4. How to operate , Instructions in the Youtube : https://www.youtube.com/watch?v=QtmEYQ4-gac
