@@ -29,6 +29,7 @@
 ####  ---->   cd Application               ---> press enter 
 ####  ---->   pip install -r requirements.txt    ---> press enter
 ####  ---->   python main.py            ---> press enter     ( App is ready to use )
+####  ---->   Tutorial [link](https://www.youtube.com/watch?v=QtmEYQ4-gac&t=1s)
 
 
 ## Important Message
