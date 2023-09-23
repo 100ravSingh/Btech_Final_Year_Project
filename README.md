@@ -11,7 +11,7 @@
 
 ### Research and Machine Learning code availabe on GA folder.
 
-### Status : #EXE file ready click [here](https://github.com/100ravSingh/Btech_Final_Year_Project/tree/main/EXE) to find github directory. Follow Instructions.txt to install .exe file in your window system.
+### Status : #### EXE file ready click [here](https://github.com/100ravSingh/Btech_Final_Year_Project/tree/main/EXE) to find github directory. Follow Instructions.txt to install .exe file in your window system.
 
 
 ## To Install this application in your system, Please follow this instructions.
