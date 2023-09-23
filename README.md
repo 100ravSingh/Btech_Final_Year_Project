@@ -28,7 +28,7 @@
 ####  ---->   cd Btech_Final_Year_Project  ---> press enter
 ####  ---->   cd Application               ---> press enter 
 ####  ---->   pip install -r requirements.txt    ---> press enter
-####  ---->   python layout_design.py            ---> press enter     ( App is ready to use )
+####  ---->   python main.py            ---> press enter     ( App is ready to use )
 
 
 ## Important Message
