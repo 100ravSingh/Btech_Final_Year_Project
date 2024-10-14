@@ -38,6 +38,6 @@
 ### 2. Please visit this website regulary for further updates.
 
 
-### 3. Project Contribution by : [Sourav Singh](https://100ravsingh.github.io/Sourav/), [Prof S.K Patro](https://www.vssut.ac.in/faculty-profile.php?furl=sanjaya-kumar-patro-arch) and [Suraj Kumar Parhi](https://www.linkedin.com/in/suraj-kumar-parhi-479713154/)
+### 3. Project Contribution by : [Sourav Singh](https://100ravsingh.github.io/), [Prof S.K Patro](https://www.vssut.ac.in/faculty-profile.php?furl=sanjaya-kumar-patro-arch) and [Suraj Kumar Parhi](https://www.linkedin.com/in/suraj-kumar-parhi-479713154/)
 
 
